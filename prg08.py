@@ -10,7 +10,7 @@ while True:
     pokusy += 1
 
     if hadane_cislo == cislo_ke_hodnuti:
-        print(f"Skvělé! Uhodl(a) jsi číslo {cislo_ke_hodnuti} během {pokusy} pokusů.")
+        print(f"Skvělé! Uhodl jsi číslo {cislo_ke_hodnuti} během {pokusy} pokusů.")
         break
     else:
         print("Zkus to znovu. Špatné číslo.")
